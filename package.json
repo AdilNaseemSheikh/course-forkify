@@ -5,7 +5,7 @@
   "default": "src/js/controller.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
   },
   "author": "Adil Naseem",
   "license": "ISC",
